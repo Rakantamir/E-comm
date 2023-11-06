@@ -4,7 +4,7 @@
     <div class="heading-banner-area overlay-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                {{-- <div class="col-md-12">
                     <div class="heading-banner">
                         <div class="heading-banner-title">
                             <h2></h2>
@@ -16,7 +16,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
                         @enderror
                         <div class="customer-login text-left">
                             <h4 class="title-1 title-border text-uppercase mb-30">Pendaftaraan Konsumen Baru</h4>
-                            <br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
+                            <br><center><p> <a href='' title='StokCoding.com' target='_blank'></a></p></center>
 
                             <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" placeholder="Nama Lengkap" name="name">
                             <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="Alamat Email">

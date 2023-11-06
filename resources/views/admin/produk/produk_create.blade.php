@@ -34,7 +34,7 @@
                                         class="form-control @error('nama_produk')
                                         is-invalid
                                     @enderror"
-                                        name="nama_produk" type="text" placeholder="Catton Carded 30S"
+                                        name="nama_produk" type="text" placeholder="Masukan Nama Produk"
                                         id="example-text-input">
                                     @error('nama_produk')
                                         <span class="invalid-feedback">{{ $message }}</span>

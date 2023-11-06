@@ -10,10 +10,6 @@
                             <h2></h2>
                         </div>
                         <div class="breadcumbs pb-15">
-                            <ul>
-                                <li><a href="/">Home</a></li>
-                                <li>Login</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -45,7 +41,7 @@
                         @enderror
                         <div class="customer-login text-left">
                             <h4 class="title-1 title-border text-uppercase mb-30">Login Konsumen</h4>
-                            <br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
+                            <br><center><p> <a href='' title='' target='_blank'></a></p></center>
 
                             <input type="text" id="email" class="form-control @error('email') is-invalid @enderror" value="admin@admin.com" placeholder="Tulis Email" name="email"
                                 value="{{ old('email') }}">

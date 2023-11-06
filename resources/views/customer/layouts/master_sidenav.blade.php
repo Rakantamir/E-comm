@@ -22,11 +22,11 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                <li class="menu-title">Produk AAN-PRINT</li>
+                <li class="menu-title">Produk</li>
 
                 <li class="{{ request()->is('customer/produk/*') ? 'mm-active' : '' }}">
                     <a href="{{ Route('customer.produk') }}" class="waves-effect">
-                        <i class="mdi mdi-tshirt-crew"></i><span> Produk ANN PRINT</span>
+                        <i class="mdi mdi-tshirt-crew"></i><span> Produk Toko</span>
                     </a>
                 </li>
 

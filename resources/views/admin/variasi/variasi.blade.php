@@ -18,7 +18,6 @@
 
     <div class="container-fluid">
         <div class="page-content-wrapper">
-
             <div class="row">
                 <div class="col-lg-6">
                     <div class="card">
@@ -84,7 +83,7 @@
                                     </thead>
                                     <tbody>
                                         @php
-                                        function rupiah($angka)
+                                        function rupiah($angka) 
                                         {
                                             $hasil_rupiah = 'Rp ' . number_format($angka, 2, ',', '.');
                                             return $hasil_rupiah;

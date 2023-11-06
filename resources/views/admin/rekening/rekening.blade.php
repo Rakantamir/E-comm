@@ -88,17 +88,11 @@
                                                 <td><b>{{ Str::upper($hasil->nama_rek) }}</b></td>
                                                 <td><i>{{ $hasil->no_rek }}</i></td>
                                                 <td align="center">
-                                                    <a href="{{ route('rekening.edit', $hasil->id_rekening) }}"
-                                                        class="btn btn-warning waves-effect waves-light"><i
-                                                            class="dripicons-pencil"></i> Edit</a>
-                                                    <form action="{{ route('rekening.destroy', $hasil->id_rekening) }}" method="POST"
-                                                        style="display:inline"
-                                                        onsubmit="return confirm('Apakah Yakin akan Di Hapus ?');">
+                                                    <a href="{{ route('rekening.edit', $hasil->id_rekening) }}" class="btn btn-warning waves-effect waves-light"><i class="dripicons-pencil"></i></a>
+                                                    <form action="{{ route('rekening.destroy', $hasil->id_rekening) }}" method="POST" class="display:inline" onsubmit="return confirm('Apakah Yakin akan Di Hapus ?');">
                                                         @method('delete')
                                                         @csrf
-                                                        <button type="submit"
-                                                            class="btn btn-danger waves-effect waves-light"><i
-                                                                class="dripicons-trash"></i> Delete</button>
+                                                        <button type="submit" class="btn btn-danger waves-effect waves-light"><i class="dripicons-trash"></i> </button>
                                                     </form>
                                                 </td>
                                             </tr>

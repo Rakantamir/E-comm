@@ -1,32 +1,11 @@
 <header id="page-topbar">
     <div class="navbar-header">
         <div class="d-flex">
-
+            
             <!-- LOGO -->
-            <div class="navbar-brand-box">
-                <a href="index.html" class="logo logo-dark">
-                    <span class="logo-sm">
-                        <img src="/morvin/dist/assets/images/Logo.png" alt="" height="40">
-                    </span>
-                    <span class="logo-lg">
-                        <img src="/morvin/dist/assets/images/logo-dark-2.png" alt="" height="40">
-                    </span>
-                </a>
-
-                <a href="index.html" class="logo logo-light">
-                    <span class="logo-sm">
-                        <img src="/morvin/dist/assets/images/Logo.png" alt="" height="22">
-                    </span>
-                    <span class="logo-lg">
-                        <img src="/morvin/dist/assets/images/logo-light.png" alt="" height="20">
-                    </span>
-                </a>
-            </div>
-
             <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
                 <i class="mdi mdi-menu"></i>
-            </button>
-
+            </button>   
         </div>
         @php
             $notif_topnav_pesanan = DB::table('pesanan')
